@@ -1,0 +1,386 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family:'Montserrat', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Helper CSS Class Start */
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-90{
+    margin-bottom: 90px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.mt-90{
+    margin-top: 90px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+strong,b{
+    font-weight: 700;
+}
+em,i{
+    font-style: italic;
+}
+p,ul li,ol li{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-family:'Montserrat', sans-serif;
+}
+.clear-both{
+    overflow: hidden;
+}
+/* General Css */
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden;
+    padding:40px 20px;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
+/**** Header area CSS start ****/
+#hero{
+    background-image:linear-gradient(rgba(218,46,51,1),rgba(218,46,51,0.3)),url("img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav>li{
+    display: inline-block;
+}
+.nav>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #fff transparent;
+    transition: border-bottom 0.1s,color 0.1s;
+}
+.nav>li>a:hover{
+    border-bottom: 4px solid #fff;
+    transition: border-bottom 0.1s,color 0.1s;
+}.cta{
+    display: inline-block;
+    position: relative;
+}
+.cta-info{
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+.cta-info>h2{
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.hero-para{
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+.cta-img{
+    position: absolute;
+    right:-80px;
+
+}
+.cta-btn>a{
+    padding:23px 35px;
+    background:#282828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .3s;
+}
+.cta-btn>a:hover{
+    background:#383737;
+    transition: .3s;
+}
+img.btn-img{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+/**** Header area CSS End ****/
+/**** App Features area CSS start ****/
+#app>.container{
+    text-align: center;
+    padding: 60px 20px;
+}
+.app-title{
+    color:#8a8a8a;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.app-content{
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0px 105px;
+}
+.row{
+    overflow: hidden;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.col-4-app{
+   padding: 0 45px;  
+}
+.col-4-app h3{
+    font-size: 40px;
+    margin-top:35px;
+}
+.col-4-app p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 35px;
+    color:#8a8a8a;
+}
+/**** App Features area CSS End ****/
+/**** Nose area CSS Start ****/
+#nose{
+    background: url('img/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.download-info{
+    width: 50%;
+    padding:200px 0;
+}
+.download-info>h2{
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.download-info>h2>span{
+    color: #f55150;
+}
+.download-info>p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#8a8a8a;
+}
+.download-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background-color:#d9332d;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 30px;
+    transition: .5s ease all;
+}
+.download-btn:hover{
+    background-color:#c33934;
+    color: #fff;
+}
+/**** Nosearea CSS End ****/
+/**** footer CSS start ****/
+footer{
+    background:#2e2e38;
+}
+footer>.container{
+    padding: 120px 20px;
+}
+.container>.logo-footer{
+    margin-bottom: 77px;
+}
+.footer-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4-footer{
+    width: 33.33%;
+    padding: 0 30px;
+    justify-content: space-between;
+    color: white;
+}
+.col-4-footer h4{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.col-4-footer>p{
+    line-height: 1.8;
+    font-size: 15px;
+    text-align: justify;
+}
+.ul-posts li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 70px;
+}
+.blog{
+    display: block;
+}
+.footer-bg{
+    background: url('img/box1.png') no-repeat;
+}
+.ul-twits li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+#footer-bottom{
+    background-color:rgb(144, 140, 140);
+    border-top: thick double #32a1ce;
+}
+#footer-bottom .container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+}
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+.social-area>ul>li{
+    display: inline-block;
+    padding:0 5px;
+}
+/**** footer CSS End ****/
+
+/* Animation Start */
+.iphone_dark{
+    max-width: 80%;
+    position: relative;
+    margin-bottom: -220px;
+}
+.iphone_on{
+    position: absolute;
+    top: 99px;
+    left:176px;
+    width: 54%;
+}
+.iphone_button{
+    position: absolute;
+    left:350px;
+}
+.js-wp-2{
+    opacity: 0;
+}
+.animate{
+    opacity: 1;
+}
+.js-wp-3{
+    opacity: 0;
+    animation-delay:2.4s;
+}
+.animate{
+    opacity: 1;
+}
+/* Animation End */

@@ -1,0 +1,259 @@
+/*===================
+=====================
+Responsive Page Start 
+=====================
+====================*/
+/* media queries Hero Section Start */
+@media only screen and (max-width:1040px){
+    .cta-info{
+        width: 50%;
+        padding-right: 50px;
+    }
+    .cta-info>h2{
+        font-size: 40px;
+    }
+    .cta-img{
+        right:-40px;
+    }
+    .app-title{
+        color:#8a8a8a;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+    .app-content{
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 80px;
+    }
+    .app-content{
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 105px;
+    }
+    .col-4-app{
+        padding: 0 10px;  
+     }
+     .col-4-app h3{
+        font-size: 20px;
+        margin-top:25px;
+    }
+    .col-4-app p{
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    .footer-bottom>.copyright>p{
+        font-size: 15px;
+    }
+    .social-area{
+        width: 15%;
+    }
+    .social-area ul li a img{
+        max-width:20px;
+    }
+}
+@media only screen and (max-width:800px){
+    .cta-info{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin:50px 0;
+        padding: 0;
+    }
+    .cta-info>h2{
+        font-size: 30px;
+    }
+    .cta-img{
+        display: none;
+    }
+    .app-title{
+        color:#8a8a8a;
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+    .app-content{
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0px 105px;
+    }
+    .col-4-app{
+        padding: 0 10px;  
+     }
+     .col-4-app h3{
+         font-size: 20px;
+         margin-top:25px;
+     }
+     .col-4-app p{
+         font-size: 15px;
+         line-height: 22px;
+         margin-top: 20px;
+     }
+     .download-info{
+        width: 100%;
+        padding:100px 0;
+        text-align: center;
+    }
+    .download-info>h2{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .download-info>p{
+        font-size: 15px;
+        line-height: 23px;
+        color:#fff;
+    }
+    .download-btn{
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+        background-color:#d9332d;
+        display: inline-block;
+        margin-top: 30px;
+        border-radius: 30px;
+    }
+    #footer-bottom .container{
+        padding:10px 10px;
+    }
+    .footer-bottom>.copyright>p{
+        font-size: 10px;
+    }
+    .social-area{
+        width: 12%;
+    }
+    .social-area ul li a img{
+        max-width:15px;
+    }
+    /* Navagation Mobile menue Responsive area start*/
+.navbar{
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    display: block;
+    z-index: 999;
+}
+.barger-nav{
+    background:url(../img/hamburger.png) no-repeat 100% center;
+    display: block;
+    height: 31px;
+    width: 40px;
+    cursor: pointer;
+    float: right;
+}
+.container nav ul{
+    height: 0px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: #282828;
+    border-radius: 5px;
+}
+.container nav ul.open {
+    height: auto;
+    clear: both;
+}
+.container nav ul li{
+    float: none;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+}
+/* Navagation Mobile menue Responsive area end*/
+@media only screen and (max-width:768px) {
+    .cta-info{
+        width: 100%;
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    .cta-info>h2{
+        font-size: 25px;
+    }
+    .hero-para{
+        font-size: 18px;
+        line-height:25px;
+        margin-bottom: 30px;
+    }
+    .row{
+        overflow: hidden;
+        margin-top: 70px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .app-title{
+        width: 100%;
+        font-size: 25px;
+    }
+    .app-content{
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0px 30px;
+        width: 100%;
+    }
+    .cta-btn>a{
+        padding:10px 10px;
+        background:#282828;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: .3s;
+    }
+    img.btn-img{
+        padding-right:5px;
+        max-width: 25px;
+    }
+    .download-info>h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-column{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-4-footer{
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+        justify-content: space-between;
+        color: white;
+    }
+    .col-4-footer h4{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .ul-posts li{
+        list-style: none;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    #footer-bottom .container{
+        padding: 20px;
+        display: block;
+    }
+    .copyright .inline{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .social-area{
+        width: 100%;
+        text-align: center;
+    }
+    .social-area ul li a{
+        display: inline;
+        text-align: center;
+    }
+}
+
+
+/* media queries Hero Section End */
